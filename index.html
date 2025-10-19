@@ -991,11 +991,11 @@
     // Fonction pour rediriger vers PayDunya
     function redirectToPayDunya(title) {
         const links = {
-            "Planificateur Quotidien Pro": "https://paydunya.com/checkout/TON_LIEN_PLANIFICATEUR",
+            "Planificateur Quotidien Pro":"https://paydunya.com/dashboard",
             "Portfolio Créatif Premium": "https://paydunya.com/checkout/TON_LIEN_PORTFOLIO",
             "Business Dashboard Complet": "https://paydunya.com/checkout/TON_LIEN_BUSINESS"
         };
-        const url = links[title] || "https://paydunya.com/checkout/TON_LIEN_GENERIQUE";
+        const url = links[title] || "https://paydunya.com/dashboard";
         window.open(url, '_blank');
     }
 
@@ -1131,4 +1131,5 @@
     });
 </script>
 </body>
+
 </html>
